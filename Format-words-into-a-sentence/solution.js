@@ -7,7 +7,7 @@ function formatWords(words){
     return word.length;
   });
   if (words.length == 0) {
-    return ' ';
+    return '';
   }
   else if (words.length == 1) {
     return words[0];
